@@ -7,17 +7,17 @@ while True:
         case 'add':
             todo = input("inter to do: ") + "\n"
 
-            file = open("todos.txt", "r")
+            file = open("files/todos.txt", "r")
             todos = file.readlines()
             file.close()
 
             todos.append(todo)
 
-            file = open("todos.txt", 'w')
+            file = open("files/todos.txt", 'w')
             file.writelines(todos)
             file.close()
         case 'show' | 'display':
-            file = open("todos.txt", "r")
+            file = open("files/todos.txt", "r")
             todos = file.readlines()
             file.close()
 

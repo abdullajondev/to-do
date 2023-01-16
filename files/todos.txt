@@ -6,3 +6,5 @@ close
 add
 clean
 buy]
+buy fruits
+sell vegetables
