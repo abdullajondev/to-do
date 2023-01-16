@@ -9,7 +9,7 @@ for content, filename in zip(contents, filenames):
     file.write(content)"""
 
 
-file = open("experimetns/textfiles/new.txt", "r")
+file = open("textfiles/new.txt", "r")
 words = file.readlines()
 
 for num, word in enumerate(words):
