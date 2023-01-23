@@ -1,3 +1,8 @@
 buy appple
-clean
 run
+buy
+sell pen
+sell notebook
+new
+newnewnewnewwnewnewnewtodonew
+ newtodo1
