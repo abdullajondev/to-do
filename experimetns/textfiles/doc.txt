@@ -1,1 +1,5 @@
-All carrots are to be sliced
+temperatures
+5
+7
+12
+10

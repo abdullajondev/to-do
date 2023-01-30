@@ -1,54 +1,66 @@
 
+def get_todos(filepath):
+    with open(filepath, "r") as file:
+        todos = file.readlines()
+    return todos
+
+def write_todos(filepath, todos_arg):
+    with open(filepath, "w") as file:
+        file.writelines(todos_arg)
 
 while True:
     user_action = input("Type: add, show,complete, edit, exit:  ")
     user_action = user_action.strip()
 
     if 'add' in user_action:
-        todo = user_action[3:] + "\n"
+        try:
+            todo = user_action[3:] + "\n"
 
-        with open("files/todos.txt", "r") as file:
-            todos = file.readlines()
+            todos = get_todos("files/todos.txt")
 
-        todos.append(todo)
+            todos.append(todo)
 
-        with open("files/todos.txt", 'w') as file:
-            file.writelines(todos)
-        print(todos)
-        print(todo)
+            write_todos("files/todos.txt", todos)
+        except ValueError:
+            print("your commend is not valid")
+            continue
     elif 'show' in user_action:
-        with open("files/todos.txt", "r") as file:
-            todos = file.readlines()
+        todos = get_todos("files/todos.txt")
 
         for index, item in enumerate(todos):
             item = item.strip("\n")
             row = f"{index + 1}-{item}"
             print(row)
     elif 'edit' in user_action:
-        number = int(user_action[4:])
-        number = number - 1
+        try:
+            number = int(user_action[4:])
+            number = number - 1
 
-        with open("files/todos.txt", "r") as file:
-            todos = file.readlines()
+            todos = get_todos("files/todos.txt")
 
-        new_todo = input("pls enter new todo: ")
-        todos[number] = new_todo + "\n"
+            new_todo = input("pls enter new todo: ")
+            todos[number] = new_todo + "\n"
 
-        with open("files/todos.txt", "w") as file: 
-            file.writelines(todos)
+            write_todos("files/todos.txt", todos)
+        except ValueError:
+            print("your commend is not valid")
     elif 'complete' in user_action:
-        number = int(user_action[8:])
-        index = number - 1
-        with open("files/todos.txt", "r") as file:
-            todos = file.readlines()
+        try:
+            number = int(user_action[9:])
+            index = number - 1
 
-        todos.pop(index)
-        todo_completed = todos[index].strip('\n')
+            todos = get_todos("files/todos.txt")
 
-        with open("files/todos.txt", "w") as file:
-            file.writelines(todos)
-        message = f"todo {todo_completed} was removed from the list"
-        print(message)
+            todo_completed = todos[index].strip('\n')
+            todos.pop(index)
+
+
+            write_todos("files/todos.txt", todos)
+            message = f"todo {todo_completed} was removed from the list"
+            print(message)
+        except IndexError:
+            print("your commend is not valid")
+        continue
     elif 'exit' in user_action:
         break
     else:

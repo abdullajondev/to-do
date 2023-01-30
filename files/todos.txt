@@ -1,8 +1,8 @@
 buy appple
-run
-buy
-sell pen
+sell sell
 sell notebook
-new
-newnewnewnewwnewnewnewtodonew
  newtodo1
+ buy applw
+ 2
+ new
+adited
