@@ -7,4 +7,3 @@ sell notebook
  new
 adited
  new todo
- new todo

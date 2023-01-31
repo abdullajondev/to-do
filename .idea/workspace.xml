@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c77785bc-7e14-4214-885f-8e2fa4d63f10" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experimetns/experiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/experimetns/experiment.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/todos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/todos.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="18498" />
+    <option name="totalTimeSeconds" value="20038" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,6 +37,11 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/Desktop/to-do&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\Desktop\to-do\modules" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.main">
     <configuration name="experiment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="to-do" />

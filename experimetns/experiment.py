@@ -1,8 +1,8 @@
-liters = input("Enter Liters: ")
+user_input = input("Enter feet and inches")
 
-def convert(i):
-    liter = float(liters) / 1000
-    return liter
+def parse(feet_inches):
+    parts = feet_inches.split(" ")
+    feet = float(parts[0])
+    inches = float(parts[1])
+    
 
-
-print(convert(1000))
