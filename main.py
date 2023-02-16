@@ -5,7 +5,7 @@ from modules import functions
 while True:
     user_action = input("Type: add, show,complete, edit, exit:  ")
     user_action = user_action.strip()
-
+    print("changed something")
     if 'add' in user_action:
         try:
             todo = user_action[3:] + "\n"
