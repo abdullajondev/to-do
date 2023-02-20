@@ -1,11 +1,8 @@
-newbuysell sell
 sell notebook
  newtodo1
  buy applw
  new todo2salkdjf new
-new editedmaster todo
-break todo
-soidhf
- new todo12
+new editedmaster tosoidhf
 lastly
-lastly2
+sell notebook
+2
