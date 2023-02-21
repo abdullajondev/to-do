@@ -1,6 +1,5 @@
 ##from modules.functions import get_todos, write_todos
-from modules import functions
-
+import functions
 
 while True:
     user_action = input("Type: add, show,complete, edit, exit:  ")
