@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c77785bc-7e14-4214-885f-8e2fa4d63f10" name="Changes" comment="added edit and complete button and fixed errors and theme">
-      <change afterPath="$PROJECT_DIR$/web.py" afterDir="false" />
+    <list default="true" id="c77785bc-7e14-4214-885f-8e2fa4d63f10" name="Changes" comment="Implement &quot;added new todo items &quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/todos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/todos.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/todos.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web.py" beforeDir="false" afterPath="$PROJECT_DIR$/web.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="36591" />
+    <option name="totalTimeSeconds" value="37821" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -213,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676892115655</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Implement &quot;added new todo items &quot;">
+      <created>1676990232575</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676990232575</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,6 +236,7 @@
     <MESSAGE value="day16" />
     <MESSAGE value="implement the edit button" />
     <MESSAGE value="added edit and complete button and fixed errors and theme" />
-    <option name="LAST_COMMIT_MESSAGE" value="added edit and complete button and fixed errors and theme" />
+    <MESSAGE value="Implement &quot;added new todo items &quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement &quot;added new todo items &quot;" />
   </component>
 </project>
